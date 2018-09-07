@@ -58,8 +58,6 @@ public class QuickSort {
 					int temp = array[i];
 					array[i] = array[j];
 					array[j] = temp;
-					i++;
-					j--;
 				}
 			}
 			// 基准与ij相等的位置交换
